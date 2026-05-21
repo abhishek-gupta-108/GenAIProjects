@@ -20,14 +20,12 @@ The matching flow supports:
 7. Each ChromaDB record stores the `user_id` in metadata so job matching can use it to fetch the full resume JSON from SQLite later.
 
 ## Resources referred to
-LLamaHub - to get the LLMs, Extractirs, Indexes, Storagem Post Processors, Embeddings info - https://llamahub.ai/
-
-LLamnaIndex - Getting Started for RAG pipeline - https://developers.llamaindex.ai/python/framework/understanding/rag/
-LLamaIndex Documentation - for Indexing, Loading, Querying, Retrievers, Node processors, Structured Output - https://developers.llamaindex.ai/python/framework/module_guides/querying/retriever/
-
-HuggingFace DataSets-
-Resumes - https://huggingface.co/datasets/AzharAli05/Resume-Screening-Dataset
-Job Description - https://huggingface.co/datasets/jacob-hugging-face/job-descriptions
+1. LLamaHub - to get the LLMs, Extractirs, Indexes, Storagem Post Processors, Embeddings info - https://llamahub.ai/
+2. LLamnaIndex - Getting Started for RAG pipeline - https://developers.llamaindex.ai/python/framework/understanding/rag/
+3. LLamaIndex Documentation - for Indexing, Loading, Querying, Retrievers, Node processors, Structured Output - https://developers.llamaindex.ai/python/framework/module_guides/querying/retriever/
+4. HuggingFace DataSets-
+     - Resumes - https://huggingface.co/datasets/AzharAli05/Resume-Screening-Dataset
+     - Job Description - https://huggingface.co/datasets/jacob-hugging-face/job-descriptions
 
 
 
