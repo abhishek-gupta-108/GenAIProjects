@@ -25,6 +25,11 @@ LLamaHub - to get the LLMs, Extractirs, Indexes, Storagem Post Processors, Embed
 LLamnaIndex - Getting Started for RAG pipeline - https://developers.llamaindex.ai/python/framework/understanding/rag/
 LLamaIndex Documentation - for Indexing, Loading, Querying, Retrievers, Node processors, Structured Output - https://developers.llamaindex.ai/python/framework/module_guides/querying/retriever/
 
+HuggingFace DataSets-
+Resumes - https://huggingface.co/datasets/AzharAli05/Resume-Screening-Dataset
+Job Description - https://huggingface.co/datasets/jacob-hugging-face/job-descriptions
+
+
 
 ## Prerequisites
 
