@@ -1,0 +1,812 @@
+python job_matcher.py
+Do you want to provide must-have skills for filtering? (y/n): y
+Enter the must-have skills, separated by commas: 5+ years Python experience
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+The tokenizer parameter is deprecated and will be removed in a future release. Use a stemmer from PyStemmer instead.
+
+====================================================================================================
+JOB #1 MATCH RESULTS
+====================================================================================================
+{
+  "job_description": "HIRING COMPANY: Google\nHIRING POSITION: Sales Specialist\nJOB DESCRIPTION: minimum qualifications\nbachelors degree or equivalent practical experience years of experience in saas or productivity tools businessexperience managing enterprise accounts with sales cycles\npreferred qualifications\n years of experience building strategic business partnerships with enterprise customersability to work through and with a reseller ecosystem to scale the businessability to plan pitch and execute a territory business strategyability to build relationships and to deliver results in a crossfunctionalmatrixed environmentability to identify crosspromoting and uppromoting opportunities within the existing account baseexcellent account management writtenverbal communication strategic and analyticalthinking skills\nabout the job\nas a member of the google cloud team you inspire leading companies schools and government agencies to work smarter with google tools like google workspace search and chrome you advocate the innovative power of our products to make organizations more productive collaborative and mobile your guiding light is doing whats right for the customer you will meet customers exactly where they are at and provide them the best solutions for innovation using your passion for google products you help spread the magic of google to organizations around the world\nthe google workspace team helps customers transform and evolve their business through the use of googles productivity collaboration and content management suite of applications as part of an entrepreneurial team in this growing business you will help shape the future of businesses use technology to connect with customers employees and partners\nas a google workspace sales specialist you will be responsible for maintenance and expansion of google workspace business growth across the region with customers in this role youll create and execute the strategy and provide unique insights on applying google workspace solutions to enterprisesyou will build an excellent pipeline and work with the account teams to build out the customer solution and establish partnerships you will strategize with partners to increase account and territory business growth you will work directly with customers coordinate internal resources and construct successful strategies at account and territory level\ngoogle cloud accelerates organizations ability to digitally transform their business with the best infrastructure platform industry solutions and expertise we deliver enterprisegrade solutions that leverage googles cuttingedge technology  all on the cleanest cloud in the industry customers in more than  countries and territories turn to google cloud as their trusted partner to enable growth and solve their most critical business problems",
+  "top_matches": [
+    {
+      "score": 82.29771256446838,
+      "resume": {
+        "name": "Carol Smith",
+        "summary": "Highly motivated and detail-oriented data analyst with 5+ years of experience in data analysis, statistical modeling, and data visualization.",
+        "total_years_of_experience": 5.0,
+        "skills": [
+          "Python",
+          "SQL",
+          "Excel",
+          "Power BI",
+          "Tableau",
+          "Statistical Analysis"
+        ],
+        "interests": [
+          "Data Science",
+          "Business Analytics",
+          "Visualization"
+        ],
+        "contact": {
+          "phone": "555-555-5555",
+          "linkedin": "linkedin.com/in/carolsmithdata",
+          "email": "carol.smith@email.com"
+        },
+        "education": [
+          {
+            "institute_name": "XYZ University",
+            "course": "Bachelor's Degree in Mathematics",
+            "start_year": "2015",
+            "end_year": "2018"
+          },
+          {
+            "institute_name": "Data Science Council of America",
+            "course": "Certification in Data Science",
+            "start_year": "2019",
+            "end_year": "2019"
+          }
+        ],
+        "job_experience": [
+          {
+            "company_name": "ABC Corporation",
+            "position": "Data Analyst",
+            "job_designation": "Data Analyst",
+            "job_industry": "Technology",
+            "start_date": "2020",
+            "end_date": "Present",
+            "skills_used": [
+              "Python",
+              "SQL",
+              "Excel",
+              "Power BI"
+            ],
+            "details": [
+              "Analyzed large datasets to identify trends, patterns, and correlations.",
+              "Built and maintained dashboards using Power BI.",
+              "Developed and implemented statistical models to predict business outcomes.",
+              "Collaborated with cross-functional teams to design and implement data-driven solutions.",
+              "Worked closely with business stakeholders to understand requirements and deliver actionable insights."
+            ]
+          },
+          {
+            "company_name": "DEF Startups",
+            "position": "Junior Data Analyst",
+            "job_designation": "Junior Data Analyst",
+            "job_industry": "Technology",
+            "start_date": "2018",
+            "end_date": "2020",
+            "skills_used": [
+              "SQL",
+              "Excel",
+              "Tableau"
+            ],
+            "details": [
+              "Assisted in data analysis, data visualization, and data storytelling.",
+              "Developed and maintained databases using SQL.",
+              "Built and maintained dashboards using Excel and Tableau.",
+              "Participated in data quality assurance and data governance initiatives."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "score": 81.75387382507324,
+      "resume": {
+        "name": "Brittany George",
+        "summary": "Highly motivated and detail-oriented Data Engineer with 5+ years of experience in designing, developing, and deploying data pipelines using MLOps, Airflow, ETL, and Big Data technologies.",
+        "total_years_of_experience": 5.0,
+        "skills": [
+          "MLOps",
+          "Airflow",
+          "ETL",
+          "Big Data",
+          "Cloud Platforms",
+          "Python",
+          "Scala",
+          "SQL"
+        ],
+        "interests": [
+          "Data Engineering",
+          "Cloud Computing",
+          "Machine Learning"
+        ],
+        "contact": {
+          "phone": "555-555-5555",
+          "linkedin": "linkedin.com/in/brittanygeorge",
+          "email": "brittany.george@email.com"
+        },
+        "education": [
+          {
+            "institute_name": "XYZ University",
+            "course": "Master of Science in Computer Science",
+            "start_year": "2013",
+            "end_year": "2015"
+          },
+          {
+            "institute_name": "ABC University",
+            "course": "Bachelor of Science in Computer Science",
+            "start_year": "2006",
+            "end_year": "2010"
+          }
+        ],
+        "job_experience": [
+          {
+            "company_name": "ABC Corporation",
+            "position": "Senior Data Engineer",
+            "job_designation": "Data Engineer",
+            "job_industry": "Technology",
+            "start_date": "2018",
+            "end_date": "Present",
+            "skills_used": [
+              "MLOps",
+              "Airflow",
+              "ETL",
+              "AWS Redshift",
+              "Spark"
+            ],
+            "details": [
+              "Designed and developed end-to-end data pipelines for data warehousing and business intelligence.",
+              "Led the implementation of a cloud-based data warehousing solution.",
+              "Collaborated with cross-functional teams to deliver high-quality data products.",
+              "Mentored junior engineers and provided technical guidance."
+            ]
+          },
+          {
+            "company_name": "DEF Startups",
+            "position": "Data Engineer",
+            "job_designation": "Data Engineer",
+            "job_industry": "Technology",
+            "start_date": "2015",
+            "end_date": "2018",
+            "skills_used": [
+              "Airflow",
+              "ETL",
+              "Hadoop",
+              "Spark",
+              "Python"
+            ],
+            "details": [
+              "Developed and deployed data pipelines for data analytics and business intelligence.",
+              "Designed and implemented a data architecture using Hadoop and Spark.",
+              "Worked closely with data scientists to develop and deploy machine learning models."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "score": 76.57438516616821,
+      "resume": {
+        "name": "Jessica Hall",
+        "summary": "Highly motivated and detail-oriented Cloud Engineer with 5+ years of experience in designing, developing, and deploying scalable and secure cloud-based applications using Serverless Architecture and Scripting.",
+        "total_years_of_experience": 5.0,
+        "skills": [
+          "Cloud platforms: AWS, Azure, Google Cloud",
+          "Serverless Architecture: AWS Lambda, Azure Functions, Google Cloud Functions",
+          "Scripting languages: Python, Bash, PowerShell",
+          "DevOps tools: Jenkins, GitLab CI/CD, Docker, Kubernetes",
+          "Cloud security: encryption, access controls, monitoring",
+          "Cloud migration: cloud assessment, cloud design, cloud deployment"
+        ],
+        "interests": [],
+        "contact": {
+          "phone": "(555) 123-4567",
+          "linkedin": "linkedin.com/in/jessicahall",
+          "email": "jhall@email.com"
+        },
+        "education": [
+          {
+            "institute_name": "XYZ University",
+            "course": "Bachelor of Science in Computer Science",
+            "start_year": "2011",
+            "end_year": "2015"
+          }
+        ],
+        "job_experience": [
+          {
+            "company_name": "ABC Corporation",
+            "position": "Cloud Engineer",
+            "job_designation": "Cloud Engineer",
+            "job_industry": "Technology",
+            "start_date": "2018",
+            "end_date": "Present",
+            "skills_used": [
+              "AWS Lambda",
+              "Azure Functions",
+              "Google Cloud Functions",
+              "Python",
+              "Bash",
+              "PowerShell"
+            ],
+            "details": [
+              "Design and develop scalable and secure cloud-based applications using Serverless Architecture.",
+              "Write and maintain complex scripts to automate cloud deployments and migrations.",
+              "Collaborate with cross-functional teams to identify and prioritize cloud migration projects.",
+              "Implement security best practices, including encryption, access controls, and monitoring.",
+              "Provide technical guidance and support to development teams on cloud-related topics."
+            ]
+          },
+          {
+            "company_name": "DEF Company",
+            "position": "Senior Systems Administrator",
+            "job_designation": "Systems Administrator",
+            "job_industry": "Technology",
+            "start_date": "2015",
+            "end_date": "2018",
+            "skills_used": [
+              "AWS",
+              "Azure",
+              "Prometheus",
+              "Grafana",
+              "ELK Stack",
+              "Jenkins",
+              "GitLab CI/CD"
+            ],
+            "details": [
+              "Migrated on-premises applications to cloud infrastructure using AWS and Azure.",
+              "Developed and deployed cloud-based monitoring and logging solutions.",
+              "Collaborated with DevOps teams to implement CI/CD pipelines.",
+              "Provided technical support and training to users on cloud-based applications and services."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "score": 74.84233379364014,
+      "resume": {
+        "name": "Mario Edwards",
+        "summary": "Highly motivated and detail-oriented Machine Learning Engineer with 5+ years of experience in developing and deploying scalable, accurate, and efficient machine learning models using Python, TensorFlow, and PyTorch. Proven track record of delivering projects on time and exceeding performance expectations.",
+        "total_years_of_experience": 5.0,
+        "skills": [
+          "Python",
+          "C++",
+          "Java",
+          "TensorFlow",
+          "PyTorch",
+          "scikit-learn",
+          "Keras",
+          "OpenCV",
+          "Pandas",
+          "NumPy",
+          "SQL",
+          "Scrum",
+          "Kanban",
+          "Windows",
+          "Linux",
+          "macOS"
+        ],
+        "interests": [
+          "Machine Learning",
+          "Deep Learning",
+          "Natural Language Processing",
+          "Computer Vision"
+        ],
+        "contact": {
+          "phone": "(123) 456-7890",
+          "linkedin": "linkedin.com/in/marioedwardsml",
+          "email": "marioedwards@email.com"
+        },
+        "education": [
+          {
+            "institute_name": "Stanford University",
+            "course": "Master of Science in Computer Science",
+            "start_year": "2013",
+            "end_year": "2015"
+          },
+          {
+            "institute_name": "University of California, Berkeley",
+            "course": "Bachelor of Science in Computer Science",
+            "start_year": "2009",
+            "end_year": "2013"
+          }
+        ],
+        "job_experience": [
+          {
+            "company_name": "XYZ Corporation",
+            "position": "Senior Machine Learning Engineer",
+            "job_designation": "Machine Learning Engineer",
+            "job_industry": "Technology",
+            "start_date": "2018",
+            "end_date": "Present",
+            "skills_used": [
+              "Deep Learning",
+              "Recommendation Systems",
+              "Computer Vision",
+              "Mentorship"
+            ],
+            "details": [
+              "Led the development of a deep learning-based recommendation system for e-commerce platform, resulting in 25% increase in sales.",
+              "Designed and implemented a computer vision system for defect detection in manufacturing, achieving 95% accuracy.",
+              "Collaborated with cross-functional teams to integrate machine learning models into production environments.",
+              "Mentored junior engineers in machine learning concepts and best practices."
+            ]
+          },
+          {
+            "company_name": "ABC Startup",
+            "position": "Machine Learning Engineer",
+            "job_designation": "Machine Learning Engineer",
+            "job_industry": "Technology",
+            "start_date": "2015",
+            "end_date": "2018",
+            "skills_used": [
+              "Natural Language Processing",
+              "Customer Segmentation",
+              "Data Pipelines",
+              "Code Reviews"
+            ],
+            "details": [
+              "Developed and deployed a natural language processing system for sentiment analysis, achieving 90% accuracy.",
+              "Built and evaluated several machine learning models for customer segmentation, resulting in 30% improvement in marketing ROI.",
+              "Worked with data scientists to design and implement data pipelines for large-scale data processing.",
+              "Participated in code reviews and ensured adherence to coding standards."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "score": 53.34514379501343,
+      "resume": {
+        "name": "Shaun Hill",
+        "summary": "Highly skilled and experienced Database Administrator with expertise in SQL, Database Optimization, Backup and Recovery, Database Security, and Performance Tuning.",
+        "total_years_of_experience": 5.0,
+        "skills": [
+          "SQL",
+          "Database Optimization",
+          "Backup and Recovery",
+          "Database Security",
+          "Performance Tuning",
+          "MySQL",
+          "PostgreSQL",
+          "Microsoft SQL Server",
+          "Oracle",
+          "IBM DB2",
+          "Python",
+          "Bash",
+          "Windows",
+          "Linux",
+          "macOS"
+        ],
+        "interests": [
+          "Database Management",
+          "Data Security",
+          "Performance Optimization"
+        ],
+        "contact": {
+          "phone": "(123) 456-7890",
+          "linkedin": "linkedin.com/in/shaunhilldba",
+          "email": "shaun.hill@email.com"
+        },
+        "education": [
+          {
+            "institute_name": "XYZ University",
+            "course": "Bachelor's Degree in Computer Science",
+            "start_year": "2015",
+            "end_year": "2019"
+          }
+        ],
+        "job_experience": [
+          {
+            "company_name": "ABC Corporation",
+            "position": "Database Administrator",
+            "job_designation": "Database Administrator",
+            "job_industry": "Information Technology",
+            "start_date": "2018",
+            "end_date": "Present",
+            "skills_used": [
+              "SQL",
+              "Database Optimization",
+              "Backup and Recovery",
+              "Database Security",
+              "Performance Tuning"
+            ],
+            "details": [
+              "Design, implement, and maintain databases to support business operations",
+              "Optimize database performance through indexing, query tuning, and statistics management",
+              "Ensure data security through regular backups, encryption, and access control",
+              "Collaborate with development teams to ensure database schema and data integrity",
+              "Provide database administration support to end-users and other stakeholders"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "score": 45.57616710662842,
+      "resume": {
+        "name": "Zachary Ward",
+        "summary": "Highly motivated AI researcher with expertise in Generative Adversarial Networks (GANs), Transformers, and Reinforcement Learning. Proven track record of developing innovative models that drive business value. Seeking a challenging role that leverages my skills to drive AI advancements and push the boundaries of what is possible.",
+        "total_years_of_experience": 5.0,
+        "skills": [
+          "Python",
+          "PyTorch",
+          "TensorFlow",
+          "RLlib",
+          "Stable Baselines",
+          "PyTorch-GAN",
+          "TensorFlow-GAN",
+          "Hugging Face Transformers",
+          "PyTorch-Transformers",
+          "Ubuntu",
+          "Windows",
+          "AWS",
+          "Google Cloud"
+        ],
+        "interests": [
+          "Artificial Intelligence",
+          "Machine Learning",
+          "Deep Learning"
+        ],
+        "contact": {
+          "phone": "555-555-5555",
+          "linkedin": "linkedin.com/in/zward",
+          "email": "zward@email.com"
+        },
+        "education": [
+          {
+            "institute_name": "[University Name]",
+            "course": "Ph.D. in Computer Science",
+            "start_year": "2015",
+            "end_year": "2020"
+          },
+          {
+            "institute_name": "[University Name]",
+            "course": "M.Sc. in Computer Science",
+            "start_year": "2013",
+            "end_year": "2015"
+          }
+        ],
+        "job_experience": [
+          {
+            "company_name": "[Research Institution]",
+            "position": "Senior Research Scientist",
+            "job_designation": "AI Researcher",
+            "job_industry": "Artificial Intelligence",
+            "start_date": "2020",
+            "end_date": "Present",
+            "skills_used": [
+              "GANs",
+              "Reinforcement Learning",
+              "Image Synthesis"
+            ],
+            "details": [
+              "Developed and implemented a novel GAN-based model for image synthesis, achieving state-of-the-art results on the CIFAR-10 dataset.",
+              "Collaborated with a team of researchers to develop a reinforcement learning-based approach for robot control, resulting in a 30% improvement in task completion time.",
+              "Published research papers in top-tier conferences, including NeurIPS and ICML."
+            ]
+          },
+          {
+            "company_name": "[Research Institution]",
+            "position": "Research Scientist",
+            "job_designation": "AI Researcher",
+            "job_industry": "Artificial Intelligence",
+            "start_date": "2018",
+            "end_date": "2020",
+            "skills_used": [
+              "Transformers",
+              "Natural Language Processing",
+              "Deep Learning"
+            ],
+            "details": [
+              "Contributed to the development of a Transformer-based model for natural language processing, achieving state-of-the-art results on the GLUE benchmark.",
+              "Developed and taught a course on deep learning for undergraduate students, resulting in a 90% course completion rate."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "score": 16.45393669605255,
+      "resume": {
+        "name": "Jessica Bullock",
+        "summary": "Results-driven e-commerce specialist with 5+ years of experience in inventory management, online advertising, and customer service.",
+        "total_years_of_experience": 5.0,
+        "skills": [
+          "Inventory management",
+          "SEO for e-commerce",
+          "Online advertising",
+          "Customer service",
+          "Team leadership",
+          "Data analysis",
+          "E-commerce platforms",
+          "Content creation"
+        ],
+        "interests": [
+          "E-commerce",
+          "Digital Marketing",
+          "Customer Experience"
+        ],
+        "contact": {
+          "phone": "555-555-5555",
+          "linkedin": "linkedin.com/in/jessicabullock",
+          "email": "jessica.bullock@email.com"
+        },
+        "education": [
+          {
+            "institute_name": "XYZ University",
+            "course": "Bachelor's Degree in Business Administration",
+            "start_year": "2015",
+            "end_year": "2019"
+          }
+        ],
+        "job_experience": [
+          {
+            "company_name": "ABC Retail Company",
+            "position": "E-commerce Manager",
+            "job_designation": "E-commerce Specialist",
+            "job_industry": "Retail",
+            "start_date": "2018",
+            "end_date": "Present",
+            "skills_used": [
+              "Inventory management",
+              "SEO",
+              "Online advertising",
+              "Customer service",
+              "Data analysis"
+            ],
+            "details": [
+              "Manage daily inventory levels to ensure timely shipping and minimize stockouts",
+              "Develop and execute SEO strategies to improve website visibility and drive organic traffic",
+              "Collaborate with marketing team to launch online advertising campaigns and track their effectiveness",
+              "Provide exceptional customer service through email, phone, and chat support",
+              "Analyze sales data to identify trends and opportunities for growth"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "score": 14.619210362434387,
+      "resume": {
+        "name": "Christopher Woods",
+        "summary": "Highly motivated and detail-oriented UI Engineer with 5+ years of experience in designing and building scalable, user-friendly, and visually appealing web applications.",
+        "total_years_of_experience": 5.0,
+        "skills": [
+          "HTML",
+          "JavaScript",
+          "CSS",
+          "React",
+          "Redux",
+          "React Router",
+          "Sketch",
+          "Figma",
+          "Adobe XD",
+          "Git",
+          "Agile methodologies",
+          "RESTful APIs",
+          "cloud-based technologies"
+        ],
+        "interests": [
+          "UI/UX Design",
+          "Web Development",
+          "User Research"
+        ],
+        "contact": {
+          "phone": "(123) 456-7890",
+          "linkedin": "linkedin.com/in/christopherwoods",
+          "email": "christopher.woods@email.com"
+        },
+        "education": [
+          {
+            "institute_name": "XYZ University",
+            "course": "Bachelor of Science in Computer Science",
+            "start_year": "2011",
+            "end_year": "2015"
+          }
+        ],
+        "job_experience": [
+          {
+            "company_name": "ABC Company",
+            "position": "UI Engineer",
+            "job_designation": "UI Engineer",
+            "job_industry": "Technology",
+            "start_date": "2018",
+            "end_date": "Present",
+            "skills_used": [
+              "React",
+              "HTML",
+              "CSS"
+            ],
+            "details": [
+              "Designed and developed multiple responsive web applications using React, HTML, and CSS",
+              "Collaborated with cross-functional teams to deliver high-quality features and products",
+              "Conducted user research and usability testing to inform design decisions",
+              "Developed and maintained a consistent design language across multiple products",
+              "Participated in code reviews and contributed to the improvement of the codebase"
+            ]
+          },
+          {
+            "company_name": "DEF Agency",
+            "position": "UI/UX Designer",
+            "job_designation": "UI/UX Designer",
+            "job_industry": "Design",
+            "start_date": "2015",
+            "end_date": "2018",
+            "skills_used": [
+              "Wireframing",
+              "Prototyping",
+              "User Research"
+            ],
+            "details": [
+              "Created wireframes, prototypes, and high-fidelity designs for web and mobile applications",
+              "Conducted user research to inform design decisions and improve user experience",
+              "Developed and maintained a design system for multiple products",
+              "Collaborated with developers to ensure design implementations met design requirements",
+              "Presented design concepts and recommendations to clients and stakeholders"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "score": 14.487293362617493,
+      "resume": {
+        "name": "Jason Jones",
+        "summary": "Results-driven E-commerce Specialist with 5+ years of experience in inventory management, SEO, online advertising, and analytics.",
+        "total_years_of_experience": 5.0,
+        "skills": [
+          "Inventory Management",
+          "SEO for E-commerce",
+          "Online Advertising",
+          "Analytics",
+          "Data Analysis",
+          "E-commerce Platforms",
+          "Customer Service"
+        ],
+        "interests": [
+          "E-commerce trends",
+          "Digital marketing",
+          "Data analytics"
+        ],
+        "contact": {
+          "phone": "555-123-4567",
+          "linkedin": "linkedin.com/in/jasonjones",
+          "email": "jasonjones@email.com"
+        },
+        "education": [
+          {
+            "institute_name": "[University Name]",
+            "course": "Bachelor's Degree in Business Administration",
+            "start_year": "2011",
+            "end_year": "2015"
+          }
+        ],
+        "job_experience": [
+          {
+            "company_name": "XYZ Corporation",
+            "position": "E-commerce Specialist",
+            "job_designation": "Specialist",
+            "job_industry": "E-commerce",
+            "start_date": "2018",
+            "end_date": "Present",
+            "skills_used": [
+              "Inventory Management",
+              "SEO",
+              "Online Advertising",
+              "Analytics"
+            ],
+            "details": [
+              "Managed inventory levels across multiple channels, resulting in a 25% reduction in stockouts and a 15% reduction in overstocking.",
+              "Developed and implemented SEO strategies that increased website traffic by 30% and improved search engine rankings by 20%.",
+              "Created and executed online advertising campaigns that generated a 50% increase in sales and a 20% increase in conversion rates.",
+              "Analyzed website analytics to identify trends, optimize user experience, and improve customer engagement.",
+              "Collaborated with cross-functional teams to launch new product lines, promotions, and marketing campaigns."
+            ]
+          },
+          {
+            "company_name": "ABC Retail",
+            "position": "E-commerce Coordinator",
+            "job_designation": "Coordinator",
+            "job_industry": "Retail",
+            "start_date": "2015",
+            "end_date": "2018",
+            "skills_used": [
+              "Inventory Management",
+              "SEO",
+              "Online Advertising",
+              "Analytics"
+            ],
+            "details": [
+              "Assisted in managing inventory levels, processing orders, and resolving customer inquiries.",
+              "Conducted keyword research and optimized product descriptions to improve search engine rankings.",
+              "Assisted in creating and executing online advertising campaigns, resulting in a 20% increase in sales.",
+              "Analyzed website analytics to identify trends and areas for improvement."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "score": 14.00754451751709,
+      "resume": {
+        "name": "Jose Hall",
+        "summary": "Highly motivated and detail-oriented Mobile App Developer with 5+ years of experience in designing and developing innovative mobile applications using Swift, Flutter, and other cutting-edge technologies.",
+        "total_years_of_experience": 5.0,
+        "skills": [
+          "Swift",
+          "Flutter",
+          "Java",
+          "Kotlin",
+          "UIKit",
+          "Flutter Framework",
+          "REST",
+          "GraphQL",
+          "Firebase API",
+          "Core Data",
+          "Firebase Realtime Database",
+          "Git",
+          "SVN",
+          "Scrum",
+          "Kanban"
+        ],
+        "interests": [
+          "Mobile App Development",
+          "UI/UX Design",
+          "API Integration"
+        ],
+        "contact": {
+          "phone": "(555) 555-5555",
+          "linkedin": "linkedin.com/in/josehalldev",
+          "email": "jose.hall@email.com"
+        },
+        "education": [
+          {
+            "institute_name": "XYZ University",
+            "course": "Bachelor's Degree in Computer Science",
+            "start_year": "2011",
+            "end_year": "2015"
+          }
+        ],
+        "job_experience": [
+          {
+            "company_name": "ABC Company",
+            "position": "Senior Mobile App Developer",
+            "job_designation": "Mobile App Development",
+            "job_industry": "Technology",
+            "start_date": "2018",
+            "end_date": "Present",
+            "skills_used": [
+              "Swift",
+              "Flutter",
+              "REST",
+              "GraphQL"
+            ],
+            "details": [
+              "Led the development of multiple mobile applications for iOS and Android platforms using Swift and Flutter",
+              "Designed and implemented APIs for integrating with backend services using REST and GraphQL",
+              "Collaborated with cross-functional teams to ensure seamless integration with backend services and databases",
+              "Implemented mobile UI/UX design principles to enhance user engagement and experience",
+              "Participated in code reviews and ensured adherence to coding standards and best practices"
+            ]
+          },
+          {
+            "company_name": "DEF Company",
+            "position": "Mobile App Developer",
+            "job_designation": "Mobile App Development",
+            "job_industry": "Technology",
+            "start_date": "2015",
+            "end_date": "2018",
+            "skills_used": [
+              "Java",
+              "Kotlin",
+              "UIKit",
+              "Android SDK"
+            ],
+            "details": [
+              "Developed multiple mobile applications for iOS and Android platforms using Java and Kotlin",
+              "Integrated APIs for social media and payment gateways using REST and OAuth",
+              "Designed and implemented mobile UI/UX components using UIKit and Android SDK",
+              "Collaborated with designers to create wireframes and prototypes for new features",
+              "Participated in agile development teams and ensured timely delivery of projects"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
+Completed ingestion for 1 job descriptions
