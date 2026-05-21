@@ -1,0 +1,245 @@
+python resume_rag.py
+Loading dataset AzharAli05/Resume-Screening-Dataset (split=train, text_field=Resume)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+30
+ID: 7c1d40cb-e055-43c4-bb92-b9ff224909ab
+Text: {
+  "name": "Jason Jones",
+  "summary": "Results-driven E-commerce Specialist with 5+ years of exper...
+Embedding: [-0.06604004  0.02537537  0.0296936  ... -0.01522064 -0.00749588
+ -0.02391052]
+Metadata: {'user_id': '064feb8f9f27f90a', 'source_ref': 'hf://AzharAli05/Resume-Screening-Dataset/train/0', 'ref_doc_id': 'None', 'document_id': 'None', 'doc_id': 'None', '_node_content': '{"id_": "7c1d40cb-e055-43c4-bb92-b9ff224909ab", "embedding": null, "metadata": {"user_id": "064feb8f9f27f90a", "source_ref": "hf://AzharAli05/Resume-Screening-Dataset/train/0"}, "excluded_embed_metadata_keys": [], "excluded_llm_metadata_keys": [], "relationships": {}, "metadata_template": "{key}: {value}", "metadata_separator": "\\n", "image_resource": null, "audio_resource": null, "video_resource": null, "text_template": "{metadata_str}\\n\\n{content}", "class_name": "Document", "text": ""}', '_node_type': 'Document'}
+---
+ID: ded7b0f7-afb4-436a-9753-98b31d7585ec
+Text: {
+  "name": "Ann Marshall",
+  "summary": "Highly motivated and detail-oriented game developer with 5...
+Embedding: [-0.03826904  0.00193787  0.05496216 ... -0.01026154 -0.00413513
+ -0.02194214]
+Metadata: {'ref_doc_id': 'None', 'document_id': 'None', '_node_type': 'Document', 'user_id': '9eb41283e68df717', 'doc_id': 'None', 'source_ref': 'hf://AzharAli05/Resume-Screening-Dataset/train/1', '_node_content': '{"id_": "ded7b0f7-afb4-436a-9753-98b31d7585ec", "embedding": null, "metadata": {"user_id": "9eb41283e68df717", "source_ref": "hf://AzharAli05/Resume-Screening-Dataset/train/1"}, "excluded_embed_metadata_keys": [], "excluded_llm_metadata_keys": [], "relationships": {}, "metadata_template": "{key}: {value}", "metadata_separator": "\\n", "image_resource": null, "audio_resource": null, "video_resource": null, "text_template": "{metadata_str}\\n\\n{content}", "class_name": "Document", "text": ""}'}
+---
+ID: 994094de-3611-48f6-a85a-580478f73f82
+Text: {
+  "name": "Patrick Mcclain",
+  "summary": "Results-driven Human Resources Specialist with 5+ years...
+Embedding: [-0.04867554  0.04013062  0.0559082  ... -0.01392365  0.00191784
+ -0.03158569]
+Metadata: {'doc_id': 'None', 'user_id': 'c1e499d843b5554e', 'ref_doc_id': 'None', 'document_id': 'None', '_node_content': '{"id_": "994094de-3611-48f6-a85a-580478f73f82", "embedding": null, "metadata": {"user_id": "c1e499d843b5554e", "source_ref": "hf://AzharAli05/Resume-Screening-Dataset/train/2"}, "excluded_embed_metadata_keys": [], "excluded_llm_metadata_keys": [], "relationships": {}, "metadata_template": "{key}: {value}", "metadata_separator": "\\n", "image_resource": null, "audio_resource": null, "video_resource": null, "text_template": "{metadata_str}\\n\\n{content}", "class_name": "Document", "text": ""}', 'source_ref': 'hf://AzharAli05/Resume-Screening-Dataset/train/2', '_node_type': 'Document'}
+---
+ID: d8daa87c-3042-4b95-9f14-3757bc4b101e
+Text: {
+  "name": "Patricia Gray",
+  "summary": "Results-driven E-commerce Specialist with 5+ years of exp...
+Embedding: [-0.04803467  0.02482605  0.04150391 ... -0.00602722  0.00328827
+ -0.02507019]
+Metadata: {'user_id': 'd20baaeba1827929', '_node_type': 'Document', 'source_ref': 'hf://AzharAli05/Resume-Screening-Dataset/train/3', 'ref_doc_id': 'None', 'document_id': 'None', 'doc_id': 'None', '_node_content': '{"id_": "d8daa87c-3042-4b95-9f14-3757bc4b101e", "embedding": null, "metadata": {"user_id": "d20baaeba1827929", "source_ref": "hf://AzharAli05/Resume-Screening-Dataset/train/3"}, "excluded_embed_metadata_keys": [], "excluded_llm_metadata_keys": [], "relationships": {}, "metadata_template": "{key}: {value}", "metadata_separator": "\\n", "image_resource": null, "audio_resource": null, "video_resource": null, "text_template": "{metadata_str}\\n\\n{content}", "class_name": "Document", "text": ""}'}
+---
+ID: fcb571e0-8f95-42e2-99ba-ac7aee9dc2a6
+Text: {
+  "name": "Amanda Gross",
+  "summary": "Results-driven e-commerce professional with 5+ years of ex...
+Embedding: [-0.04199219  0.05175781  0.03692627 ... -0.00744247  0.00015819
+ -0.04257202]
+Metadata: {'document_id': 'None', '_node_type': 'Document', 'doc_id': 'None', 'source_ref': 'hf://AzharAli05/Resume-Screening-Dataset/train/4', 'ref_doc_id': 'None', 'user_id': 'e760cb2e77fce227', '_node_content': '{"id_": "fcb571e0-8f95-42e2-99ba-ac7aee9dc2a6", "embedding": null, "metadata": {"user_id": "e760cb2e77fce227", "source_ref": "hf://AzharAli05/Resume-Screening-Dataset/train/4"}, "excluded_embed_metadata_keys": [], "excluded_llm_metadata_keys": [], "relationships": {}, "metadata_template": "{key}: {value}", "metadata_separator": "\\n", "image_resource": null, "audio_resource": null, "video_resource": null, "text_template": "{metadata_str}\\n\\n{content}", "class_name": "Document", "text": ""}'}
+---
+ID: 61094a95-f925-4da1-a5d9-4dcefe159a46
+Text: {
+  "name": "Jose Hall",
+  "summary": "Highly motivated and detail-oriented Mobile App Developer wit...
+Embedding: [-0.05786133  0.04064941  0.04891968 ... -0.00865936  0.00274658
+ -0.02507019]
+Metadata: {'source_ref': 'hf://AzharAli05/Resume-Screening-Dataset/train/5', 'user_id': 'd2b7b24f71c7a2d0', 'doc_id': 'None', 'document_id': 'None', '_node_type': 'Document', 'ref_doc_id': 'None', '_node_content': '{"id_": "61094a95-f925-4da1-a5d9-4dcefe159a46", "embedding": null, "metadata": {"user_id": "d2b7b24f71c7a2d0", "source_ref": "hf://AzharAli05/Resume-Screening-Dataset/train/5"}, "excluded_embed_metadata_keys": [], "excluded_llm_metadata_keys": [], "relationships": {}, "metadata_template": "{key}: {value}", "metadata_separator": "\\n", "image_resource": null, "audio_resource": null, "video_resource": null, "text_template": "{metadata_str}\\n\\n{content}", "class_name": "Document", "text": ""}'}
+---
+ID: d433666e-af0a-49c4-a4ef-f625db503256
+Text: {
+  "name": "Rachael Newman",
+  "summary": "Results-driven UX Designer with 5+ years of experience i...
+Embedding: [-0.05230713  0.01708984  0.04431152 ... -0.00335884 -0.01863098
+ -0.040802  ]
+Metadata: {'user_id': '446357ec3a10ca65', 'document_id': 'None', '_node_type': 'Document', 'source_ref': 'hf://AzharAli05/Resume-Screening-Dataset/train/6', '_node_content': '{"id_": "d433666e-af0a-49c4-a4ef-f625db503256", "embedding": null, "metadata": {"user_id": "446357ec3a10ca65", "source_ref": "hf://AzharAli05/Resume-Screening-Dataset/train/6"}, "excluded_embed_metadata_keys": [], "excluded_llm_metadata_keys": [], "relationships": {}, "metadata_template": "{key}: {value}", "metadata_separator": "\\n", "image_resource": null, "audio_resource": null, "video_resource": null, "text_template": "{metadata_str}\\n\\n{content}", "class_name": "Document", "text": ""}', 'doc_id': 'None', 'ref_doc_id': 'None'}
+---
+ID: 8192ad92-4207-457d-8838-4a27c2a5bc76
+Text: {
+  "name": "Jessica Hall",
+  "summary": "Highly motivated and detail-oriented Cloud Engineer with 5...
+Embedding: [-0.05001831  0.02516174  0.0670166  ... -0.0223999  -0.01968384
+ -0.01768494]
+Metadata: {'_node_content': '{"id_": "8192ad92-4207-457d-8838-4a27c2a5bc76", "embedding": null, "metadata": {"user_id": "bf51bc7d13c90dc8", "source_ref": "hf://AzharAli05/Resume-Screening-Dataset/train/7"}, "excluded_embed_metadata_keys": [], "excluded_llm_metadata_keys": [], "relationships": {}, "metadata_template": "{key}: {value}", "metadata_separator": "\\n", "image_resource": null, "audio_resource": null, "video_resource": null, "text_template": "{metadata_str}\\n\\n{content}", "class_name": "Document", "text": ""}', '_node_type': 'Document', 'source_ref': 'hf://AzharAli05/Resume-Screening-Dataset/train/7', 'ref_doc_id': 'None', 'user_id': 'bf51bc7d13c90dc8', 'doc_id': 'None', 'document_id': 'None'}
+---
+ID: 77ee5e4a-ec18-4801-b1d1-7badd70d0e4b
+Text: {
+  "name": "Jonathan Powers",
+  "summary": "Results-driven digital marketing specialist with 5+ yea...
+Embedding: [-0.06390381  0.03601074  0.04275513 ... -0.01669312 -0.00299263
+ -0.02949524]
+Metadata: {'_node_type': 'Document', 'document_id': 'None', 'user_id': '68ca2dd85c280600', '_node_content': '{"id_": "77ee5e4a-ec18-4801-b1d1-7badd70d0e4b", "embedding": null, "metadata": {"user_id": "68ca2dd85c280600", "source_ref": "hf://AzharAli05/Resume-Screening-Dataset/train/8"}, "excluded_embed_metadata_keys": [], "excluded_llm_metadata_keys": [], "relationships": {}, "metadata_template": "{key}: {value}", "metadata_separator": "\\n", "image_resource": null, "audio_resource": null, "video_resource": null, "text_template": "{metadata_str}\\n\\n{content}", "class_name": "Document", "text": ""}', 'source_ref': 'hf://AzharAli05/Resume-Screening-Dataset/train/8', 'doc_id': 'None', 'ref_doc_id': 'None'}
+---
+ID: 9e4fbe77-3440-4da8-8b6f-c9c4f0a9287e
+Text: {
+  "name": "Zachary Ward",
+  "summary": "Highly motivated AI researcher with expertise in Generativ...
+Embedding: [-0.02687073 -0.0074501   0.04727173 ... -0.00605011  0.02507019
+ -0.0324707 ]
+Metadata: {'_node_type': 'Document', 'ref_doc_id': 'None', 'doc_id': 'None', 'source_ref': 'hf://AzharAli05/Resume-Screening-Dataset/train/9', 'user_id': '80130a16ce61adbc', 'document_id': 'None', '_node_content': '{"id_": "9e4fbe77-3440-4da8-8b6f-c9c4f0a9287e", "embedding": null, "metadata": {"user_id": "80130a16ce61adbc", "source_ref": "hf://AzharAli05/Resume-Screening-Dataset/train/9"}, "excluded_embed_metadata_keys": [], "excluded_llm_metadata_keys": [], "relationships": {}, "metadata_template": "{key}: {value}", "metadata_separator": "\\n", "image_resource": null, "audio_resource": null, "video_resource": null, "text_template": "{metadata_str}\\n\\n{content}", "class_name": "Document", "text": ""}'}
+---
+ID: a6ffdf11-5485-4b84-8730-3a942946cfe5
+Text: {
+  "name": "Christopher Woods",
+  "summary": "Highly motivated and detail-oriented UI Engineer with...
+Embedding: [-0.06768799  0.03063965  0.05221558 ... -0.00400543 -0.01529694
+ -0.03527832]
+Metadata: {'_node_content': '{"id_": "a6ffdf11-5485-4b84-8730-3a942946cfe5", "embedding": null, "metadata": {"user_id": "3baba7f283e7e8e7", "source_ref": "hf://AzharAli05/Resume-Screening-Dataset/train/10"}, "excluded_embed_metadata_keys": [], "excluded_llm_metadata_keys": [], "relationships": {}, "metadata_template": "{key}: {value}", "metadata_separator": "\\n", "image_resource": null, "audio_resource": null, "video_resource": null, "text_template": "{metadata_str}\\n\\n{content}", "class_name": "Document", "text": ""}', 'doc_id': 'None', 'document_id': 'None', 'source_ref': 'hf://AzharAli05/Resume-Screening-Dataset/train/10', '_node_type': 'Document', 'ref_doc_id': 'None', 'user_id': '3baba7f283e7e8e7'}
+---
+ID: f2419b12-981d-4a53-b35c-06793d2e94b0
+Text: {
+  "name": "Kristina Patrick",
+  "summary": "Highly skilled and innovative AR/VR developer with exp...
+Embedding: [-0.07421875  0.04000854  0.05032349 ... -0.00163555 -0.00353622
+ -0.03884888]
+Metadata: {'ref_doc_id': 'None', 'user_id': 'ca7798e689957055', 'document_id': 'None', '_node_content': '{"id_": "f2419b12-981d-4a53-b35c-06793d2e94b0", "embedding": null, "metadata": {"user_id": "ca7798e689957055", "source_ref": "hf://AzharAli05/Resume-Screening-Dataset/train/11"}, "excluded_embed_metadata_keys": [], "excluded_llm_metadata_keys": [], "relationships": {}, "metadata_template": "{key}: {value}", "metadata_separator": "\\n", "image_resource": null, "audio_resource": null, "video_resource": null, "text_template": "{metadata_str}\\n\\n{content}", "class_name": "Document", "text": ""}', 'doc_id': 'None', '_node_type': 'Document', 'source_ref': 'hf://AzharAli05/Resume-Screening-Dataset/train/11'}
+---
+ID: 6dc7c39e-1861-40a3-826d-1e1b6e02fd27
+Text: {
+  "name": "Robert Holden",
+  "summary": "Results-driven Digital Marketing Specialist with 5+ years...
+Embedding: [-0.05908203  0.03092957  0.03369141 ... -0.01661682  0.01274109
+ -0.02726746]
+Metadata: {'source_ref': 'hf://AzharAli05/Resume-Screening-Dataset/train/12', '_node_content': '{"id_": "6dc7c39e-1861-40a3-826d-1e1b6e02fd27", "embedding": null, "metadata": {"user_id": "b9fed1487f4a170f", "source_ref": "hf://AzharAli05/Resume-Screening-Dataset/train/12"}, "excluded_embed_metadata_keys": [], "excluded_llm_metadata_keys": [], "relationships": {}, "metadata_template": "{key}: {value}", "metadata_separator": "\\n", "image_resource": null, "audio_resource": null, "video_resource": null, "text_template": "{metadata_str}\\n\\n{content}", "class_name": "Document", "text": ""}', 'document_id': 'None', 'ref_doc_id': 'None', 'doc_id': 'None', '_node_type': 'Document', 'user_id': 'b9fed1487f4a170f'}
+---
+ID: ff7666bc-e512-47a0-949a-713b7500c688
+Text: {
+  "name": "Nicholas Lee",
+  "summary": "Highly motivated and experienced AI researcher with expert...
+Embedding: [-0.05838013 -0.0269165   0.05569458 ... -0.01009369  0.00941467
+ -0.00843048]
+Metadata: {'_node_content': '{"id_": "ff7666bc-e512-47a0-949a-713b7500c688", "embedding": null, "metadata": {"user_id": "0c009c177205d2d6", "source_ref": "hf://AzharAli05/Resume-Screening-Dataset/train/13"}, "excluded_embed_metadata_keys": [], "excluded_llm_metadata_keys": [], "relationships": {}, "metadata_template": "{key}: {value}", "metadata_separator": "\\n", "image_resource": null, "audio_resource": null, "video_resource": null, "text_template": "{metadata_str}\\n\\n{content}", "class_name": "Document", "text": ""}', 'source_ref': 'hf://AzharAli05/Resume-Screening-Dataset/train/13', 'ref_doc_id': 'None', 'document_id': 'None', 'user_id': '0c009c177205d2d6', 'doc_id': 'None', '_node_type': 'Document'}
+---
+ID: 9cb8ffde-b54f-445a-96a7-76e43fd0275d
+Text: {
+  "name": "Chelsea Newman",
+  "summary": "Highly motivated and detail-oriented UI Engineer with a ...
+Embedding: [-0.05502319  0.0134964   0.03811646 ... -0.00933838 -0.03167725
+ -0.03881836]
+Metadata: {'user_id': '23f8f39e64f30638', 'doc_id': 'None', 'document_id': 'None', '_node_content': '{"id_": "9cb8ffde-b54f-445a-96a7-76e43fd0275d", "embedding": null, "metadata": {"user_id": "23f8f39e64f30638", "source_ref": "hf://AzharAli05/Resume-Screening-Dataset/train/14"}, "excluded_embed_metadata_keys": [], "excluded_llm_metadata_keys": [], "relationships": {}, "metadata_template": "{key}: {value}", "metadata_separator": "\\n", "image_resource": null, "audio_resource": null, "video_resource": null, "text_template": "{metadata_str}\\n\\n{content}", "class_name": "Document", "text": ""}', 'source_ref': 'hf://AzharAli05/Resume-Screening-Dataset/train/14', 'ref_doc_id': 'None', '_node_type': 'Document'}
+---
+ID: 60b615fe-0c2d-4fcf-b10c-7a46379d97a4
+Text: {
+  "name": "Mark Anderson",
+  "summary": "Highly motivated and experienced AI researcher with a str...
+Embedding: [-0.04324341 -0.00978851  0.0425415  ... -0.00928497  0.02993774
+ -0.02671814]
+Metadata: {'user_id': 'd2dbe4a0d2b85f4d', 'ref_doc_id': 'None', '_node_type': 'Document', 'source_ref': 'hf://AzharAli05/Resume-Screening-Dataset/train/15', 'doc_id': 'None', '_node_content': '{"id_": "60b615fe-0c2d-4fcf-b10c-7a46379d97a4", "embedding": null, "metadata": {"user_id": "d2dbe4a0d2b85f4d", "source_ref": "hf://AzharAli05/Resume-Screening-Dataset/train/15"}, "excluded_embed_metadata_keys": [], "excluded_llm_metadata_keys": [], "relationships": {}, "metadata_template": "{key}: {value}", "metadata_separator": "\\n", "image_resource": null, "audio_resource": null, "video_resource": null, "text_template": "{metadata_str}\\n\\n{content}", "class_name": "Document", "text": ""}', 'document_id': 'None'}
+---
+ID: efbff2ac-8f7b-4a2c-9b94-446ab9f2d24b
+Text: {
+  "name": "Joel Sosa",
+  "summary": "Highly skilled and passionate Mobile App Developer with 5+ ye...
+Embedding: [-0.05661011  0.01824951  0.0463562  ... -0.00062847 -0.01797485
+ -0.01904297]
+Metadata: {'_node_content': '{"id_": "efbff2ac-8f7b-4a2c-9b94-446ab9f2d24b", "embedding": null, "metadata": {"user_id": "3a7143a85503e381", "source_ref": "hf://AzharAli05/Resume-Screening-Dataset/train/16"}, "excluded_embed_metadata_keys": [], "excluded_llm_metadata_keys": [], "relationships": {}, "metadata_template": "{key}: {value}", "metadata_separator": "\\n", "image_resource": null, "audio_resource": null, "video_resource": null, "text_template": "{metadata_str}\\n\\n{content}", "class_name": "Document", "text": ""}', 'ref_doc_id': 'None', 'document_id': 'None', 'doc_id': 'None', '_node_type': 'Document', 'user_id': '3a7143a85503e381', 'source_ref': 'hf://AzharAli05/Resume-Screening-Dataset/train/16'}
+---
+ID: 08984964-51d2-4bff-a064-da2539c10f0f
+Text: {
+  "name": "Charles Gonzales",
+  "summary": "Results-driven Human Resources professional with 5+ ye...
+Embedding: [-0.04577637  0.03366089  0.06884766 ... -0.00921631  0.00367737
+ -0.02731323]
+Metadata: {'_node_type': 'Document', '_node_content': '{"id_": "08984964-51d2-4bff-a064-da2539c10f0f", "embedding": null, "metadata": {"user_id": "b108639cbc2a2918", "source_ref": "hf://AzharAli05/Resume-Screening-Dataset/train/17"}, "excluded_embed_metadata_keys": [], "excluded_llm_metadata_keys": [], "relationships": {}, "metadata_template": "{key}: {value}", "metadata_separator": "\\n", "image_resource": null, "audio_resource": null, "video_resource": null, "text_template": "{metadata_str}\\n\\n{content}", "class_name": "Document", "text": ""}', 'ref_doc_id': 'None', 'document_id': 'None', 'user_id': 'b108639cbc2a2918', 'doc_id': 'None', 'source_ref': 'hf://AzharAli05/Resume-Screening-Dataset/train/17'}
+---
+ID: 97828a02-866e-4fe6-a931-4c5397c3745b
+Text: {
+  "name": "Alejandra Delgado",
+  "summary": "Highly motivated and detail-oriented UI Engineer with...
+Embedding: [-0.05801392  0.01983643  0.03988647 ... -0.00829315 -0.0076561
+ -0.03112793]
+Metadata: {'source_ref': 'hf://AzharAli05/Resume-Screening-Dataset/train/18', 'doc_id': 'None', 'ref_doc_id': 'None', '_node_content': '{"id_": "97828a02-866e-4fe6-a931-4c5397c3745b", "embedding": null, "metadata": {"user_id": "052e890c11f28f82", "source_ref": "hf://AzharAli05/Resume-Screening-Dataset/train/18"}, "excluded_embed_metadata_keys": [], "excluded_llm_metadata_keys": [], "relationships": {}, "metadata_template": "{key}: {value}", "metadata_separator": "\\n", "image_resource": null, "audio_resource": null, "video_resource": null, "text_template": "{metadata_str}\\n\\n{content}", "class_name": "Document", "text": ""}', 'user_id': '052e890c11f28f82', '_node_type': 'Document', 'document_id': 'None'}
+---
+ID: 5d12f5e5-9389-4b6e-a13c-b6151ddcc383
+Text: {
+  "name": "Mario Edwards",
+  "summary": "Highly motivated and detail-oriented Machine Learning Eng...
+Embedding: [-0.03955078 -0.00027418  0.05270386 ... -0.00592422  0.00163078
+ -0.01483917]
+Metadata: {'_node_type': 'Document', '_node_content': '{"id_": "5d12f5e5-9389-4b6e-a13c-b6151ddcc383", "embedding": null, "metadata": {"user_id": "3d8ba720a34de88d", "source_ref": "hf://AzharAli05/Resume-Screening-Dataset/train/19"}, "excluded_embed_metadata_keys": [], "excluded_llm_metadata_keys": [], "relationships": {}, "metadata_template": "{key}: {value}", "metadata_separator": "\\n", "image_resource": null, "audio_resource": null, "video_resource": null, "text_template": "{metadata_str}\\n\\n{content}", "class_name": "Document", "text": ""}', 'document_id': 'None', 'ref_doc_id': 'None', 'source_ref': 'hf://AzharAli05/Resume-Screening-Dataset/train/19', 'doc_id': 'None', 'user_id': '3d8ba720a34de88d'}
+---
+ID: ccdce810-9711-4018-ad64-f372dc885174
+Text: {
+  "name": "Jessica Bullock",
+  "summary": "Results-driven e-commerce specialist with 5+ years of e...
+Embedding: [-0.05496216  0.0227356   0.02052307 ... -0.01389313 -0.00984192
+ -0.02146912]
+Metadata: {'_node_type': 'Document', 'doc_id': 'None', 'user_id': '624f0dba69e0452f', 'ref_doc_id': 'None', '_node_content': '{"id_": "ccdce810-9711-4018-ad64-f372dc885174", "embedding": null, "metadata": {"user_id": "624f0dba69e0452f", "source_ref": "hf://AzharAli05/Resume-Screening-Dataset/train/20"}, "excluded_embed_metadata_keys": [], "excluded_llm_metadata_keys": [], "relationships": {}, "metadata_template": "{key}: {value}", "metadata_separator": "\\n", "image_resource": null, "audio_resource": null, "video_resource": null, "text_template": "{metadata_str}\\n\\n{content}", "class_name": "Document", "text": ""}', 'source_ref': 'hf://AzharAli05/Resume-Screening-Dataset/train/20', 'document_id': 'None'}
+---
+ID: 8a763b7b-6148-4e3a-9c05-c575794ec8c1
+Text: {
+  "name": "Shaun Hill",
+  "summary": "Highly skilled and experienced Database Administrator with e...
+Embedding: [-0.05389404 -0.0045929   0.07647705 ... -0.02095032 -0.02018738
+ -0.02259827]
+Metadata: {'_node_type': 'Document', '_node_content': '{"id_": "8a763b7b-6148-4e3a-9c05-c575794ec8c1", "embedding": null, "metadata": {"user_id": "d29d64a29f93b274", "source_ref": "hf://AzharAli05/Resume-Screening-Dataset/train/21"}, "excluded_embed_metadata_keys": [], "excluded_llm_metadata_keys": [], "relationships": {}, "metadata_template": "{key}: {value}", "metadata_separator": "\\n", "image_resource": null, "audio_resource": null, "video_resource": null, "text_template": "{metadata_str}\\n\\n{content}", "class_name": "Document", "text": ""}', 'ref_doc_id': 'None', 'document_id': 'None', 'doc_id': 'None', 'user_id': 'd29d64a29f93b274', 'source_ref': 'hf://AzharAli05/Resume-Screening-Dataset/train/21'}
+---
+ID: d89ddd38-0b57-431a-8436-efbd73466afc
+Text: {
+  "name": "Brittany George",
+  "summary": "Highly motivated and detail-oriented Data Engineer with...
+Embedding: [-0.00984192  0.01444244  0.04519653 ... -0.02272034  0.00743866
+ -0.03237915]
+Metadata: {'document_id': 'None', '_node_type': 'Document', '_node_content': '{"id_": "d89ddd38-0b57-431a-8436-efbd73466afc", "embedding": null, "metadata": {"user_id": "417eb69e593cebbe", "source_ref": "hf://AzharAli05/Resume-Screening-Dataset/train/22"}, "excluded_embed_metadata_keys": [], "excluded_llm_metadata_keys": [], "relationships": {}, "metadata_template": "{key}: {value}", "metadata_separator": "\\n", "image_resource": null, "audio_resource": null, "video_resource": null, "text_template": "{metadata_str}\\n\\n{content}", "class_name": "Document", "text": ""}', 'doc_id': 'None', 'user_id': '417eb69e593cebbe', 'source_ref': 'hf://AzharAli05/Resume-Screening-Dataset/train/22', 'ref_doc_id': 'None'}
+---
+ID: 1c467a69-9cac-4652-bb4a-4a622a92b2fc
+Text: {
+  "name": "Andrew Robinson",
+  "summary": "Results-driven digital marketing specialist with 5+ yea...
+Embedding: [-0.05490112  0.02607727  0.04000854 ... -0.00909424  0.01529694
+ -0.01209259]
+Metadata: {'_node_content': '{"id_": "1c467a69-9cac-4652-bb4a-4a622a92b2fc", "embedding": null, "metadata": {"user_id": "f263cbc39ef6a26c", "source_ref": "hf://AzharAli05/Resume-Screening-Dataset/train/23"}, "excluded_embed_metadata_keys": [], "excluded_llm_metadata_keys": [], "relationships": {}, "metadata_template": "{key}: {value}", "metadata_separator": "\\n", "image_resource": null, "audio_resource": null, "video_resource": null, "text_template": "{metadata_str}\\n\\n{content}", "class_name": "Document", "text": ""}', 'source_ref': 'hf://AzharAli05/Resume-Screening-Dataset/train/23', 'user_id': 'f263cbc39ef6a26c', 'ref_doc_id': 'None', 'doc_id': 'None', '_node_type': 'Document', 'document_id': 'None'}
+---
+ID: a57a4ab1-3b1e-4f9f-9991-df8ce86aee21
+Text: {
+  "name": "Terri Woodard",
+  "summary": "Highly motivated and experienced Cybersecurity Analyst wi...
+Embedding: [-0.04025269  0.02505493  0.06713867 ... -0.00634766 -0.02104187
+ -0.03414917]
+Metadata: {'document_id': 'None', 'source_ref': 'hf://AzharAli05/Resume-Screening-Dataset/train/24', '_node_type': 'Document', 'doc_id': 'None', 'ref_doc_id': 'None', 'user_id': '8bcefbba50609615', '_node_content': '{"id_": "a57a4ab1-3b1e-4f9f-9991-df8ce86aee21", "embedding": null, "metadata": {"user_id": "8bcefbba50609615", "source_ref": "hf://AzharAli05/Resume-Screening-Dataset/train/24"}, "excluded_embed_metadata_keys": [], "excluded_llm_metadata_keys": [], "relationships": {}, "metadata_template": "{key}: {value}", "metadata_separator": "\\n", "image_resource": null, "audio_resource": null, "video_resource": null, "text_template": "{metadata_str}\\n\\n{content}", "class_name": "Document", "text": ""}'}
+---
+ID: 699d9526-b19b-4356-bbf2-853b11eb0588
+Text: {
+  "name": "Matthew Hardy",
+  "summary": "Highly motivated and detail-oriented robotics engineer wi...
+Embedding: [-0.04159546  0.01522827  0.04782104 ... -0.00965118 -0.00699615
+ -0.00868988]
+Metadata: {'document_id': 'None', 'doc_id': 'None', 'source_ref': 'hf://AzharAli05/Resume-Screening-Dataset/train/25', 'ref_doc_id': 'None', 'user_id': 'a3e1fb8944298f0e', '_node_type': 'Document', '_node_content': '{"id_": "699d9526-b19b-4356-bbf2-853b11eb0588", "embedding": null, "metadata": {"user_id": "a3e1fb8944298f0e", "source_ref": "hf://AzharAli05/Resume-Screening-Dataset/train/25"}, "excluded_embed_metadata_keys": [], "excluded_llm_metadata_keys": [], "relationships": {}, "metadata_template": "{key}: {value}", "metadata_separator": "\\n", "image_resource": null, "audio_resource": null, "video_resource": null, "text_template": "{metadata_str}\\n\\n{content}", "class_name": "Document", "text": ""}'}
+---
+ID: 13f86c7f-17c6-4502-b7d4-ccd4e65800d4
+Text: {
+  "name": "Peter Barron",
+  "summary": "Results-driven Business Analyst with 5+ years of experienc...
+Embedding: [-0.07470703  0.02796936  0.04846191 ... -0.0122757  -0.00592041
+ -0.0188446 ]
+Metadata: {'document_id': 'None', '_node_content': '{"id_": "13f86c7f-17c6-4502-b7d4-ccd4e65800d4", "embedding": null, "metadata": {"user_id": "77f170f73185d545", "source_ref": "hf://AzharAli05/Resume-Screening-Dataset/train/26"}, "excluded_embed_metadata_keys": [], "excluded_llm_metadata_keys": [], "relationships": {}, "metadata_template": "{key}: {value}", "metadata_separator": "\\n", "image_resource": null, "audio_resource": null, "video_resource": null, "text_template": "{metadata_str}\\n\\n{content}", "class_name": "Document", "text": ""}', 'ref_doc_id': 'None', 'doc_id': 'None', 'source_ref': 'hf://AzharAli05/Resume-Screening-Dataset/train/26', 'user_id': '77f170f73185d545', '_node_type': 'Document'}
+---
+ID: 33a611f0-f2bf-4321-b743-44a0101e59dd
+Text: {
+  "name": "Carol Smith",
+  "summary": "Highly motivated and detail-oriented data analyst with 5+ y...
+Embedding: [-0.04690552  0.01782227  0.04760742 ... -0.01282501  0.01567078
+ -0.02877808]
+Metadata: {'document_id': 'None', 'source_ref': 'hf://AzharAli05/Resume-Screening-Dataset/train/27', '_node_type': 'Document', 'user_id': 'fe760a0b837b260c', 'ref_doc_id': 'None', 'doc_id': 'None', '_node_content': '{"id_": "33a611f0-f2bf-4321-b743-44a0101e59dd", "embedding": null, "metadata": {"user_id": "fe760a0b837b260c", "source_ref": "hf://AzharAli05/Resume-Screening-Dataset/train/27"}, "excluded_embed_metadata_keys": [], "excluded_llm_metadata_keys": [], "relationships": {}, "metadata_template": "{key}: {value}", "metadata_separator": "\\n", "image_resource": null, "audio_resource": null, "video_resource": null, "text_template": "{metadata_str}\\n\\n{content}", "class_name": "Document", "text": ""}'}
+---
+ID: af3b6029-4d40-4edf-a48b-709ab4e47286
+Text: {
+  "name": "Janet Ortiz",
+  "summary": "Results-driven Human Resources professional with 8+ years o...
+Embedding: [-0.05361938  0.02536011  0.08355713 ... -0.01094055 -0.00214958
+ -0.03372192]
+Metadata: {'user_id': '0ecec750a83fe98e', '_node_type': 'Document', 'document_id': 'None', 'doc_id': 'None', '_node_content': '{"id_": "af3b6029-4d40-4edf-a48b-709ab4e47286", "embedding": null, "metadata": {"user_id": "0ecec750a83fe98e", "source_ref": "hf://AzharAli05/Resume-Screening-Dataset/train/28"}, "excluded_embed_metadata_keys": [], "excluded_llm_metadata_keys": [], "relationships": {}, "metadata_template": "{key}: {value}", "metadata_separator": "\\n", "image_resource": null, "audio_resource": null, "video_resource": null, "text_template": "{metadata_str}\\n\\n{content}", "class_name": "Document", "text": ""}', 'source_ref': 'hf://AzharAli05/Resume-Screening-Dataset/train/28', 'ref_doc_id': 'None'}
+---
+ID: 17258a86-7bed-47e4-ad6f-9c66ea4d3044
+Text: {
+  "name": "Alexis Robles",
+  "summary": "Highly motivated and detail-oriented Robotics Engineer wi...
+Embedding: [-0.04202271  0.0231781   0.0319519  ...  0.00653839 -0.0073967
+ -0.01487732]
+Metadata: {'ref_doc_id': 'None', '_node_type': 'Document', 'user_id': 'f7776de49ed53b7e', '_node_content': '{"id_": "17258a86-7bed-47e4-ad6f-9c66ea4d3044", "embedding": null, "metadata": {"user_id": "f7776de49ed53b7e", "source_ref": "hf://AzharAli05/Resume-Screening-Dataset/train/29"}, "excluded_embed_metadata_keys": [], "excluded_llm_metadata_keys": [], "relationships": {}, "metadata_template": "{key}: {value}", "metadata_separator": "\\n", "image_resource": null, "audio_resource": null, "video_resource": null, "text_template": "{metadata_str}\\n\\n{content}", "class_name": "Document", "text": ""}', 'document_id': 'None', 'doc_id': 'None', 'source_ref': 'hf://AzharAli05/Resume-Screening-Dataset/train/29'}
+---
+Completed ingestion for 30 resumes.
